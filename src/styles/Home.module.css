@@ -8,7 +8,7 @@
 }
 
 .card {
-  width: 40%;
+  width: 25%;
   height: 40%;
   background-color: white;
   border-radius: 10px;
@@ -60,12 +60,20 @@
 
 #check_1 {
   position: absolute;
-  left: -15px;
+  left: -55px;
+  background-color: blue;
 }
 
 #check_2 {
   position: absolute;
-  left: -30px;
+  left: -40px;
+  background-color: green;
+}
+
+#check_3 {
+  position: absolute;
+  background-color: red;
+  left: -25px;
 }
 
 .invitation {

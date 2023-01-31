@@ -31,7 +31,7 @@ export default function Home() {
             <div className={styles.invitation}>
               <div className={styles.check} id={styles["check_1"]}></div>
               <div className={styles.check} id={styles["check_2"]}></div>
-              <div className={styles.check}></div>
+              <div className={styles.check} id={styles["check_3"]}></div>
               <button className={styles.button}>Invite</button>
             </div>
           </div>
