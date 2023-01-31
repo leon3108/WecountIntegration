@@ -8,16 +8,17 @@
 }
 
 .card {
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   background-color: white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 2%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color:  grey;
 }
 
 .theme {
@@ -35,7 +36,7 @@
 }
 
 .title {
-
+  color: black;
 }
 
 .friends {
@@ -57,9 +58,20 @@
   border-radius: 50px;
 }
 
+#check_1 {
+  position: absolute;
+  left: -15px;
+}
+
+#check_2 {
+  position: absolute;
+  left: -30px;
+}
+
 .invitation {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .description {
@@ -72,16 +84,27 @@
   height: 40px;
   background-color: rgb(81, 163, 196);
   color: white;
+  border: none;
 }
 
 .sharing {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   border-style: solid;
   border-radius: 50px;
   border-width: 1px;
-  border-color: black;
-  /* width: 80%; */
-  height: 40px;
+  border-color: gray;
+  height: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.group {
+  display: flex;
+}
+
+.group p {
+  position: relative;
+  left: 10px;
 }
