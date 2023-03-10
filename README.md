@@ -1,3 +1,14 @@
+Instruction :
+
+Reproduis le visuel ci-dessous en html / css (tu peux utiliser les technologies que tu souhaites)
+
+Pour la typo, tu n’es pas obligé d’avoir exactement la même, tu peux prendre la google font “Roboto”
+
+Pour les pictos, remplace les simplement par un rond noir (pour les deux du bas), et par un rond de couleur pour les illustrations représentant les utilisateurs
+
+<img src="./public/image.png" width="400"/>
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
